@@ -32,16 +32,22 @@ import java.util.Arrays;
 		 }
 	}	
 				System.out.println("========================================================");
-				System.out.println("STUDENT  ");
+				System.out.print("STUDENT \t ");
 				
-				for(int i = 0; count < numberOfStudent.length;i++){
-					for(int j = 0; j < numberOfSubject.length; j++){
-		
-					System.out.printf("\t SUB", "%2s", i++);
-					System.out.print("TOT\t AVE\t POS\t ");
-					System.out.print(gradeAndNames[numberOfStudent][numberOfSubject]);
+				int SUB =0;
+				for(int column = 0; column < SUB;column++){
+					column++;
+					for(int row = 0; row < SUB;row++){
+							
+						System.out.printf("\tSUB", "%2s", row++);
 					}
-			}
+	
+					
+					}
+					System.out.println("TOT\t AVE\t POS\t ");
+					
+					
+			
 				
 				System.out.println("========================================================");
 			
@@ -52,4 +58,3 @@ import java.util.Arrays;
 	}
 
 }
-
